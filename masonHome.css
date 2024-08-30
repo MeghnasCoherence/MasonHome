@@ -1,0 +1,446 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    overflow-x: hidden;
+}
+
+.wrapper{
+    height: 100vh;
+    overflow-y: auto;
+}
+.header h4{
+    text-align: center;
+    padding: 12px;
+    color: rgb(189, 182, 182);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: auto;
+    background-color: rgb(189, 182, 182);
+}
+.fixed-nav{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: rgb(189, 182, 182);
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0%;
+}
+.navbar .search{
+    margin: 20px;
+    color: white;
+    font-size: 2rem;
+}
+.navbar .logo{
+    color: white;
+    text-align: center;
+}
+.navbar .user-cart{
+   color: white;
+   margin: 20px;
+   font-size: 2rem;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px;
+}
+.nav-list{
+    color: white;
+    width: 70%;
+    background-color: rgb(189, 182, 182);
+    text-align: center;
+    margin-left: 200px;
+}
+nav{
+    width: 100%;
+    text-align: center;
+    
+}
+.rating i{
+    color:rgb(75, 75, 138);
+}
+.images{
+    display: flex;
+}
+.sticky{
+    position: sticky;
+    top: 0;
+    width: 140px;
+    float: right;
+    margin-right: -60px;
+}
+.image1{
+    height: 550px;
+    width: 550px;
+    background-image: url("./img\ 1.webp");
+    background-position: center;
+    background-size: contain;
+    margin-left: 40px;
+}
+.image2{
+    height: 550px;
+    width: 550px;
+    background-image: url("./img\ 2.webp");
+    background-position: center;
+    background-size: contain;
+    margin-left: 40px;
+}
+.image3{
+    height: 550px;
+    width: 550px;
+    background-image: url("./img\ 3.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 40px;
+}
+.image5{
+    height: 150px;
+    width: 70px;
+    background-image: url("./img\ 1.webp");
+    background-position: center;
+    background-size: contain;
+    margin: 10px;
+    margin-left: 40px;
+    border: 5px solid grey;
+    
+}
+.image6{
+    height: 150px;
+    width: 70px;
+    background-image: url("./img\ 2.webp");
+    background-position: center;
+    background-size: contain;
+    margin: 10px;
+    margin-left: 40px;
+    border: 5px solid grey;
+}
+.image7{
+    height: 150px;
+    width: 70px;
+    background-image: url("./img\ 3.webp");
+    background-position: center;
+    background-size: contain;
+    margin: 10px;
+    margin-left: 40px;
+    border: 5px solid grey;
+}
+.image-container1{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(189, 182, 182);
+    border-radius: 50%;
+}
+.image-container1 label{
+    position: absolute;
+    top:337%;
+    left:80px;
+}
+.image-container2{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(189, 182, 182);
+    border-radius: 50%;
+}
+.image-container2 label{
+    position: absolute;
+    top:363%;
+    left:80px;
+}
+.image-container3{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(189, 182, 182);
+    border-radius: 50%;
+}
+.image-container3 label{
+    position: absolute;
+    top:418%;
+    left:80px;
+}
+.image-aside-text{
+    margin: 40px;
+    line-height: 60px;
+    color: rgb(189, 182, 182);
+}
+.image-aside-text h3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.image-aside-text button{
+    padding: 10px;
+    width: 80px;
+    color:rgb(189, 182, 182);
+    margin-bottom: 20px;
+}
+.review-based3{
+    margin-left: 20px;
+}
+#btn1{
+    background-color: rgb(189, 182, 182);
+    color: white;
+}
+.button button{
+    padding: 10px;
+    text-decoration: underline;
+    width: 150px;
+    background-color: beige;
+}
+#btn3{
+    width: 500px;
+    margin-left: 140px;
+    font-size: large;
+}
+#btn4{
+    display:flex;
+    /* justify-content: space-around; */
+    margin-left: 700px;
+    margin-top: 10px;
+    text-decoration: underline;
+    
+}
+#btn4 button{
+    width: 300px;
+    padding: 10px;
+    font-size: large;
+}
+.image-container2{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(189, 182, 182);
+    border-radius: 50%;
+}
+.add-to-cart i{
+    font-size: 1rem;
+}
+.container2{
+    display: flex;
+    margin: 20px;
+}
+.customer-reviews h3{
+    margin: 20px;
+}
+.customer-reviews p{
+    margin: 20px;
+}
+.select select{
+    width: 700px;
+    padding: 20px;
+    border-left: none;
+    border-right: none;
+    color: rgb(189, 182, 182);
+    font-size: large;
+}
+.p{
+    line-height:20px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+.customer-reviews{
+    height: 1100px;
+    width: 1230px;
+    border: 1px solid rgb(189, 182, 182);
+    margin: 40px;
+}
+.customer-reviews h2{
+    margin: 20px;
+}
+.review2{
+    margin: 20px;
+}
+.container1{
+    display: flex;
+    justify-content:flex-start;
+}
+.button{
+    margin-left: 20%;
+}
+.box{
+    width: 20%;
+    height: 100%;
+    background-color: white;
+}
+.review-based3{
+    margin-right: 50px;
+}
+.rating-progress{
+    width: 40%;
+    height: 40%;
+}
+.progress{
+    width: 20%;
+    height: 10px;
+    margin: 8px;
+    border: 1px solid black;
+}
+.subprogress{
+    width: 40%;
+    height: 100%;
+    background-color: yellow;
+}
+.subprogress h6{
+    margin-left: 120px;
+}
+    
+
+.most-recent{
+    margin: 20px;
+}
+.img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgb(189, 182, 182);
+}
+#btn5{
+    background-color: yellow;
+    padding: 2px;
+    outline: none;
+    border: none;
+}
+.reviews{
+    display: flex;
+    gap:5px;
+    margin: 20px;
+}
+.review2{
+    background-image: url("./review2.avif");
+    height: 150px;
+    width: 100px;
+    background-size: contain;
+    background-position: center;
+    border-radius: 2px;
+}
+.review3{
+    background-image: url("./rev3.avif");
+    height: 150px;
+    width: 100px;
+    background-size: contain;
+    background-position: center;
+    border-radius: 2px;
+}
+.review4{
+    background-image: url("./revi3.avif");
+    height: 150px;
+    width: 100px;
+    background-size: contain;
+    background-position: center;
+    border-radius: 2px;
+}
+.review5{
+    background-image: url("./revie3.avif");
+    height: 150px;
+    width: 100px;
+    background-size: contain;
+    background-position: center;
+    border-radius: 2px;
+}
+.footer{
+    display: flex;
+    height: 400px;
+    width: 1230px;
+    border: 1px solid rgb(189, 182, 182);
+    margin-left: 20px;
+    margin-top: 60px;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    color: rgb(189, 182, 182);
+    position: relative;
+}
+.headings{
+    display:flex;
+}
+.headings h3{
+    font-size: small;
+    margin-bottom: 30px;
+}
+.h1{
+    margin: 50px;
+}
+li{
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input{
+    margin-left: 120px;
+    margin-top: 70px;
+    width: 300px;
+    padding: 8px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+input::placeholder{
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(189, 182, 182);
+}
+.input-box p{
+    margin-left: 120px;
+    width: 300px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.input-box{
+    position: absolute;
+    left:700px;
+}
+
+.logo{
+    display: flex;
+    font-size: 2rem;
+    margin-left: 120px;
+    gap:20px;
+}
+.footer-text{
+    font-size:medium;
+    color: rgb(189, 182, 182);
+    padding: 30px;
+    margin-left: 40px;
+}
+collapsible {
+    width: 300px;
+    margin: 20px auto;
+}
+
+.collapsible-label {
+    display: block;
+    background-color:white;
+    color: grey;
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid grey;
+    border-left: none;
+    border-right: none;
+}
+
+.collapsible-content {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.2s ease-out;
+    background-color:white;
+    padding: 0 10px;
+}
+
+#collapsible-toggle {
+    display: none;
+}
+
+#collapsible-toggle:checked ~ .collapsible-content {
+    max-height: 200px; /* Adjust this value based on the content height */
+    padding: 10px;
+}
